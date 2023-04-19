@@ -4,13 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "next dev",
+    "dev": "next dev",
     "build": "next build",
     "preview": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "googleapis": "^105.0.0",
     "next": "^12.2.4",
+    "next-auth": "^4.10.3",
+    "nodemailer": "^6.7.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
